@@ -18,10 +18,7 @@ public class Calculator {
       sc.close();
   
       System.out.println(result(input1, input2 ,operation));   
-   
-   
-   
-   
+ 
 	}
 	private static int result(int input1, int input2, String operation) {
 		if(operation.equals("+"))

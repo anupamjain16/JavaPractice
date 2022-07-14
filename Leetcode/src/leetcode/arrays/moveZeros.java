@@ -9,7 +9,7 @@ public class moveZeros {
 
 		int arr[] = {2,0,4,0,43,0,4,0,5,0};
 		
-		BubbleSort(arr);
+		//BubbleSort(arr);
 		
 	}
 

@@ -25,5 +25,12 @@ public class mergeList {
 		System.out.println(list4);
 		
 		
+		int [] arr = {3,3,3,5,0,8,8,0,23,54};
+		
+		Arrays.stream(arr).distinct().forEach(e ->System.out.println(e + ""));
+		
+		
+		
+		
 	}
 }
