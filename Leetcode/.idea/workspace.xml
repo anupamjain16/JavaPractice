@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ffa9d6b7-7177-41de-8b92-864c5edc0cfb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/DesignPattern/ImmutableClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/DesignPattern/SingltonDP.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/DesignPattern/main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Serching/BinarySearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Serching/OrderAgnosticBinarySearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dataStrctures/LinkListManual.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dataStrctures/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviews/A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviews/B.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviews/D.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviews/Interface1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviews/Interface2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviews/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviews/PublicisSapient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviews/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviews/ThreaCreation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviews/classLogic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewss/ARGUSOFT.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewss/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewss/lenskart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewss/streamapi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/javaProgramms/Array2DSearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/javaProgramms/Calculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/javaProgramms/CheckAnagram.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/javaProgramms/CountWordsMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/javaProgramms/EnumsUse$Weeks.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/javaProgramms/EnumsUse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/javaProgramms/HashmapUse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/javaProgramms/LuckNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/javaProgramms/PalindromCheck.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/javaProgramms/PrimeNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/javaProgramms/QueueRefector.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/javaProgramms/RotateInteger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/javaProgramms/SnakeTOCamelCase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/javaProgramms/ThredString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/javaProgramms/immutableClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/arrays/CountWordOccurance.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/arrays/Fibonacci.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/arrays/ReverseList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/arrays/TwoSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/arrays/moveZeros.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/sorting/BubbleSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/sorting/MergeSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/streamApi/CubeOfList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/streamApi/mergeList.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2ButdB9uTNBoT7uzhPNugxpesGI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="BinarySearch" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="openjdk-16" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Serching.BinarySearch" />
+      <module name="Leetcode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="openjdk-16" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <module name="Leetcode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ffa9d6b7-7177-41de-8b92-864c5edc0cfb" name="Changes" comment="" />
+      <created>1657767883495</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1657767883495</updated>
+    </task>
+    <servers />
+  </component>
+</project>
