@@ -1,4 +1,4 @@
-package interviewss;
+package interviews;
 
 import java.io.InputStream;
 import java.util.Arrays;

@@ -1,4 +1,4 @@
-package interviewss;
+package interviews;
 
 import java.util.ArrayList;
 import java.util.Comparator;

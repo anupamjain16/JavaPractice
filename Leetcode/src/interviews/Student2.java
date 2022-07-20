@@ -1,8 +1,8 @@
-package interviewss;
+package interviews;
 
 import java.util.Comparator;
 
-public class Student  {
+public class Student2  {
 
 	private int id;
 	private String  Name  ;
@@ -20,7 +20,7 @@ public class Student  {
 		Name = name;
 	}
 	
-	public Student(int id, String name) {
+	public Student2(int id, String name) {
 		super();
 		this.id = id;
 		Name = name;

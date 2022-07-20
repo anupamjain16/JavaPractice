@@ -1,15 +1,12 @@
 package patternsPrograms;
 
 public class starPattern {
-	/****
-	 ***         
-	 **
-	 * 
-	 */
-
 	public static void main(String[] args) {
 
+		
+		
 		pattern(5, 0);
+		
 
 	}
 

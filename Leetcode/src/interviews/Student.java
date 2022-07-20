@@ -7,7 +7,25 @@ public class Student implements Interface1, Interface2 {
 	
 	transient String name;
 	private int id;
+
+	private String  Name  ;
 	
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	
+	
+	
+	@Override
+	public String toString() {
+		return "Student [id=" + id + ", Name=" + Name + "]";
+	}
+	
+
 	
 	
 
