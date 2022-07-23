@@ -9,10 +9,10 @@ public class Array2DSearch {
 
 	public static void main(String[] args) {
 
-		int arr[][] = { { 1, 2, 3, 4 }, 
-				{ 5, 6, 7, 8 }, 
-				{ 9, 10, 11, 12 } };
-		int[] ans = findAns(arr, 12);
+		int arr[][] = { { 1, 2, 3, 4 }, { 5, 6, 7, 8 }, { 9, 10, 11, 12 } };
+		
+		int[] ans = findAns(arr, 6);
+		
 		System.out.println("Element found at index: " + Arrays.toString(ans));
 		
 		System.out.println(arr.length);

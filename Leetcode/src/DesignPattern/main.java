@@ -12,6 +12,8 @@ public class main {
 		SingltonDP s3 = SingltonDP.getInstance();
 		
 		
+		/// EXECUTOR SERVICS
+		
 		int CourOCunt = Runtime.getRuntime().availableProcessors();
 		System.out.println(CourOCunt);
 		ExecutorService service = Executors.newFixedThreadPool(CourOCunt);

@@ -11,11 +11,11 @@ public class SubSeqencesSubSet {
 		String up = "abc";
 
 		// print all sub seq
-		// Subseqs("", up);
+		 Subseqs("", up);
 
 		// insert all sub seq in ArraylIst
 
-		SubseqsAscii("", up);
+		//SubseqsAscii("", up);
 
 	}
 

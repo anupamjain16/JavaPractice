@@ -10,63 +10,7 @@ public class Student implements Interface1, Interface2 {
 
 	private String  Name  ;
 	
-	public int getId() {
-		return id;
-	}
-	public void setId(int id) {
-		this.id = id;
-	}
 
-	
-	
-	
-	@Override
-	public String toString() {
-		return "Student [id=" + id + ", Name=" + Name + "]";
-	}
-	
-
-	
-	
-
-
-
-	public Student(String name, int age) {
-		super();
-		this.name = name;
-		this.id = age;
-	}
-
-
-
-	public String getName() {
-		return name;
-	}
-
-
-
-	public void setName(String name) {
-		this.name = name;
-	}
-
-
-
-	public int getAge() {
-		return id;
-	}
-
-
-
-	public void setAge(int age) {
-		this.id = age;
-	}
-
-
-
-	@Override
-	public String toString() {
-		return "Student [name=" + name + ", age=" + id + "]";
-	}
 	
 	@Override
 	protected Object clone() throws CloneNotSupportedException {

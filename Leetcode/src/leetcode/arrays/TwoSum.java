@@ -5,7 +5,7 @@ public class TwoSum {
 	public static void main(String[] args) 
 	{	
 		int a[] = {2,7,11,15};
-	   int Target = 9;
+	   int Target = 18;
 		
 		groupFinder(a, Target);	
 	 
@@ -24,8 +24,8 @@ public class TwoSum {
 			
 				if (a[i] + a[j] == Target)
 				{
-					b[index] = a[i];
-					index++;	
+					b[index++] = a[i];
+						
 					b[index] = a[j];
 				}
 				
