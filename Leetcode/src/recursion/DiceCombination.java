@@ -20,7 +20,7 @@ public class DiceCombination {
 			return;
 		}
 
-		for (int i = 1; i <= target && i <= 2; i++) {
+		for (int i = 1; i <= target && i <= 4; i++) {
 			
 			dice(processed + i, target - i);
 			

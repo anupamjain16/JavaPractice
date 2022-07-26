@@ -1,47 +1,39 @@
 package leetcode.arrays;
 
+import java.util.Arrays;
+import java.util.HashMap;
+
 public class TwoSum {
 
-	public static void main(String[] args) 
-	{	
-		int a[] = {2,7,11,15};
-	   int Target = 18;
-		
-		groupFinder(a, Target);	
-	 
-	}
-	
-	
-	public static void groupFinder( int [] a, int Target)
-	 {
-		 
-		int b [] =new int[a.length+1]; 
-		int index = 0;		
-		
-		for (int i = 0; i < a.length; i++) {			
-			
-			for (int j = i+1; j < a.length; j++) {
-			
-				if (a[i] + a[j] == Target)
-				{
-					b[index++] = a[i];
-						
-					b[index] = a[j];
-				}
-				
-			}
-		}
-		
-		
-		for (int i = 0; i < b.length; i++)
-		{
-		
-		System.out.println(b[i]);
-		
-		}
-		
-	 }
-	
-}
+	public static void main(String[] args) {
 
- 
+		int a[] = { 4, 2, -3, 1, 6 };
+
+		int Target = 6;
+
+		int b[] = groupFinder(a, Target);
+
+		System.out.println(Arrays.toString(b));
+
+	}
+
+	public static int[] groupFinder(int[] numbers, int target) {
+		HashMap<Integer, Integer> hash = new HashMap<Integer, Integer>();
+
+		for (int i = 0; i < numbers.length; i++) {
+
+			Integer diff = (Integer) (target - numbers[i]);
+			if (hash.containsKey(diff)) {
+				int toReturn[] = { hash.get(diff) + 1, i + 1 };
+				return toReturn;
+			}
+
+			hash.put(numbers[i], i);
+
+		}
+
+		return null;
+
+	}
+
+}
