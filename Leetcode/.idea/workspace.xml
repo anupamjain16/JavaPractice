@@ -2,55 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ffa9d6b7-7177-41de-8b92-864c5edc0cfb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/DesignPattern/ImmutableClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/DesignPattern/SingltonDP.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/DesignPattern/main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Serching/BinarySearch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Serching/OrderAgnosticBinarySearch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/dataStrctures/LinkListManual.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/dataStrctures/Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/interviews/A.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/interviews/B.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/interviews/D.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/interviews/Interface1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/interviews/Interface2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/interviews/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/interviews/PublicisSapient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/interviews/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/interviews/ThreaCreation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/interviews/classLogic.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/interviewss/ARGUSOFT.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/interviewss/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/interviewss/lenskart.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/interviewss/streamapi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/javaProgramms/Array2DSearch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/javaProgramms/Calculator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/javaProgramms/CheckAnagram.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/javaProgramms/CountWordsMap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/javaProgramms/EnumsUse$Weeks.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/javaProgramms/EnumsUse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/javaProgramms/HashmapUse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/javaProgramms/LuckNumber.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/javaProgramms/PalindromCheck.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/javaProgramms/PrimeNumber.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/javaProgramms/QueueRefector.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/javaProgramms/RotateInteger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/javaProgramms/SnakeTOCamelCase.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/javaProgramms/ThredString.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/javaProgramms/immutableClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/leetcode/arrays/CountWordOccurance.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/leetcode/arrays/Fibonacci.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/leetcode/arrays/ReverseList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/leetcode/arrays/TwoSum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/leetcode/arrays/moveZeros.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/sorting/BubbleSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/sorting/MergeSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/streamApi/CubeOfList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/streamApi/mergeList.class" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Leetcode - Shortcut.lnk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dataStrctures/BinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dataStrctures/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dataStrctures/TreeUserInput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/bin/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,12 +19,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="2ButdB9uTNBoT7uzhPNugxpesGI" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
@@ -99,5 +60,19 @@
       <updated>1657767883495</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
