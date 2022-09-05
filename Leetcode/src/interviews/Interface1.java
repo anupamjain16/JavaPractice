@@ -1,7 +1,10 @@
 package interviews;
 
-public interface Interface1 {
-	
+// multiple interface can extend.
+public interface Interface1 extends Interface2 {
+
+	public int a  = 5;
+
 	
 	default void speak() {
 		

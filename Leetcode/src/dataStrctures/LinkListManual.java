@@ -55,3 +55,25 @@ public class LinkListManual {
 	}
 
 }
+
+////Detect cycle in ll
+/* public static boolean detectLoop(Node head){
+        
+         Node slow = head;
+         Node fast = head.next;
+         
+         while(fast != slow)
+         {
+             
+              
+              if( fast == null || fast.next == null)
+                 return false;
+              
+              fast = fast.next.next; 
+              slow = slow.next;
+             
+         }
+        
+        return  true; 
+        
+    }*/

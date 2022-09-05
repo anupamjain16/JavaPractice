@@ -1,5 +1,7 @@
 package javaProgramms;
 
+import java.util.Arrays;
+
 public class RotateInteger {
 
 	public static void main(String[] args) {
@@ -8,7 +10,39 @@ public class RotateInteger {
 		int a = 4321;
 		
 		
+		String st = "are  eae   ewr  e";
+		st.trim();
+		System.out.println(st);
+		
+		
+		/// remove double spaces from string  
+		String words[] = st.split("\\s{2,}");
+		
+		System.out.println(Arrays.toString(words));
+		System.out.println(words[0]);
+		System.out.println(words[1]);
+		System.out.println(words[2]);
+		
 		rotation(a);
+		
+		 
+		
+		///reverse the string
+		String str= "Geeks", nstr="";
+	        char ch;
+	        
+	      System.out.print("Original word: ");
+	      System.out.println("Geeks"); //Example word
+	        
+	      
+	      
+	      for (int i=0; i<str.length(); i++)
+	      {
+	        ch= str.charAt(i); //extracts each character
+	        nstr= ch+nstr; //adds each character in front of the existing string
+	      }
+	      System.out.println("Reversed word: "+ nstr);
+	    
 	
 	
 	}

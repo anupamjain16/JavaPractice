@@ -16,16 +16,17 @@ public class HashmapUse {
   student.put("RAM", 90);
   student.put("KUMARISITA", 50);
   
+ 
+
 
   for (Entry<String, Integer> set :
 	  student.entrySet()) {
 
      // Printing all elements of a Map
-     System.out.println(set.getKey() + " = "
-                        + set.getValue());
+     //System.out.println(set.getKey() + " = " + set.getValue());
      
      
-     student.entrySet().forEach(Entry -> System.out.println(Entry.getKey()));
+     //student.entrySet().forEach(Entry -> System.out.println(Entry.getKey()));
      
      
      
@@ -42,8 +43,8 @@ public class HashmapUse {
      System.out.println(stu.size());
      
      
-     
-  
+   
+    
  }
   
 

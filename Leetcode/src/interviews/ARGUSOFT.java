@@ -13,6 +13,7 @@ public class ARGUSOFT {
 
 		Scanner sc = new Scanner(System.in);
 
+
 		String str = sc.next();
 
 		boolean status = false;
