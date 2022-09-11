@@ -68,7 +68,7 @@ public class Impetus {
 		char c2[] = { 'a' , 'b', 'c', 'd'};
 		char c3[] = { 'a' , 'b', 'c', 'd','e'};
 		
-		   c3[0] - c2[0];
+		  
 		
 
 	}

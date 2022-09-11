@@ -12,10 +12,23 @@ public class Main {
 
 			int a;
 
-			public A(int i) {
+			public A(int i) throws NullPointerException {
 
 				this.a = i;
 				System.out.println("A contr called");
+			}
+			
+			
+			public void area() throws Exception
+			{  
+				
+				try {
+					int i = 5/0;
+				} catch (Exception e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+				
 			}
 
 		}
@@ -30,6 +43,15 @@ public class Main {
 				System.out.println("B contr called");
 			}
 
+			@Override
+			 public void area()  throws Exception
+			 {
+				
+			 
+			 
+			 }; 
+			 
+			
 		}
 
 		A a = new B(2, 3);
