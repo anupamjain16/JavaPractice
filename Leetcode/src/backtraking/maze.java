@@ -6,7 +6,7 @@ public class maze {
 
 		// find all possible path in 3X3 maze from 0,0 to 3,3 R D
 
-		int row = 3;
+		 int row = 3;
 		int col = 3;
 		String pathName = "";
 

@@ -8,7 +8,9 @@ public class TreeNode<T> {
 	public T data;
 	public ArrayList<TreeNode<T>> childern;
 
-	TreeNode(T data) {
+	 
+	 TreeNode(T data) {
+		
 		this.data = data;
 		childern = new ArrayList<>();
 	}

@@ -1,9 +1,13 @@
 package interviews;
 
 public interface Interface2 {
+
+	void speakIP();
+
 	
-	
- default void speak() {
+	default void speak()
+
+ {
 	 System.out.println("Interface2");
 }
  

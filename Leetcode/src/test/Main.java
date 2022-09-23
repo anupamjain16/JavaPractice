@@ -23,7 +23,7 @@ public class Main {
 			{  
 				
 				try {
-					int i = 5/0;
+			 		int i = 5/0;
 				} catch (Exception e) {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
