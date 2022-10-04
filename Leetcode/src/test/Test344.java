@@ -14,6 +14,8 @@ public class Test344 {
 
 	public static void main(String[] args) {
 
+		
+		
 		List<Map<String, String>> students = new ArrayList<>();
 
 		Map<String, String> data = new HashMap<>();
@@ -25,6 +27,7 @@ public class Test344 {
 		data.put("John", "Course_1");
 		data.put("John", "Course_1");
 		data.put("Mike", "Course_3");
+		data.put("Mike3", "Course_3");
 
 		students.add(data);
 		;
