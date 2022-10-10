@@ -2,7 +2,7 @@ package test;
 
 import java.util.Arrays;
 
-public class Calender {
+public class CalenderZyppElectric {
 
 	/// zypp find the longest week for holiday
 	public static void main(String[] args) {

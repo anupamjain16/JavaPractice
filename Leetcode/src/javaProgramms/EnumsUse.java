@@ -2,10 +2,10 @@ package javaProgramms;
 
 public class EnumsUse {
 
-	// private finnal static constants
+	// private final static constants
 	// cant extend anything
 	// can implements
-	// used to creat our own data type
+	// used to create our own data type
 
 	enum Weeks{
 

@@ -8,7 +8,7 @@ import java.util.function.Function;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-public class Test324234 {
+public class InterviewCodes {
 
 	
 	/// Stream api use for get occurnce of each char in map.

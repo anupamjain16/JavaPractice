@@ -6,7 +6,8 @@ public class BinaryTree<T> {
 	BinaryTree<T> left;
 	BinaryTree<T> right;
 
-	public BinaryTree(T data) {
+	public BinaryTree(T data) 
+	{
 		this.data = data;
 		left = null;
 		right = null;
