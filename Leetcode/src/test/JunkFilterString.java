@@ -20,14 +20,9 @@ public class JunkFilterString {
 
 			String str2 = remove(c[i]);
 
-			// System.out.println(str2);
-
 			sum = sum + Integer.parseInt(str2);
 
 		}
-		
-
-		
 
 		return sum;
 

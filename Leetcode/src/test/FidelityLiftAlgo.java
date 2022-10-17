@@ -38,7 +38,7 @@ public class FidelityLiftAlgo {
 
 		FidelityLiftAlgo test = new FidelityLiftAlgo();
 
-		System.out.println(test.Getliftname(PostionA, PostionB, PostionPerson));
+		//System.out.println(test.Getliftname(PostionA, PostionB, PostionPerson));
 
 	}
 
