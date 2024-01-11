@@ -59,13 +59,15 @@ public class HashMapp {
  List list =	occurance.entrySet().stream()
 .sorted(Map.Entry.<String, Integer>comparingByValue().reversed()).collect(Collectors.toList());
 
+ List list2 = occurance.entrySet().stream().collect(Collectors.toList());
+ 
  //.collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue),
  //(e1, e2) -> e1, LinkedHashMap::new);
 		
 		System.out.println(list);
 
 		
-		//System.out.println(list);
+		System.out.println(list2);
 		
 		///flatnning.
 		List<List<String>> object2List = new ArrayList<>();
@@ -81,10 +83,15 @@ public class HashMapp {
         object1List.add(object2List_2);
 
         // Please get me final list of all the Strings
+        List<String> finalList = object1List.stream()
+                .flatMap(List::stream) // Flatten the first level of nesting
+                .flatMap(List::stream) // Flatten the second level of nesting
+                .collect(Collectors.toList());
 
+        System.out.println("Final list of all strings: " + finalList);
       
-        //System.out.println(object1List.stream().flatMap((outer) -> outer.stream()).flatMap((mid) -> mid.stream()).collect(Collectors.toList()));
-
+      
+ //print all number from integer;
 	  
         int a = 123;
         int temp  = a;

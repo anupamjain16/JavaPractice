@@ -1,5 +1,6 @@
 package test;
 
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
@@ -51,7 +52,7 @@ public class Danskeit {
 				list.stream().sorted(Comparator.comparing(Employee::getName).thenComparing(Employee::getId))
 						.collect(Collectors.toList());
 
-		System.out.println(sortedEmployees2); 
+		System.out.println(sortedEmployees2.toString()); 
 	}
 
 }

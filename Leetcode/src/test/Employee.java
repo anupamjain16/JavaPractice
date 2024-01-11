@@ -79,12 +79,15 @@ public class Employee implements Comparable<Employee> {
 	public void setDate(Date date) {
 		this.date = date;
 	}
-	
+
 	@Override
 	public String toString() {
-		// TODO Auto-generated method stub
-		return super.toString();
+		return "Employee [id=" + id + ", date=" + date + ", name=" + name + ", lname=" + lname + ", languages="
+				+ languages + "]";
 	}
+	
+
+
 	
 	
 

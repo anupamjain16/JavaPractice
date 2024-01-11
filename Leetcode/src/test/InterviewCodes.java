@@ -1,6 +1,7 @@
 package test;
 
 import java.util.Arrays;
+import java.util.HashMap;
 import java.util.List;
 import java.util.ListIterator;
 import java.util.Map;
@@ -27,6 +28,72 @@ public class InterviewCodes {
 		
 		System.out.println(charCount);
 		System.out.println(str.chars().spliterator().characteristics());
+		
+		
+		String str2 = "I am happy Today. Today is my happy day";
+
+		// Split the string into words, removing punctuation
+		String[] words = str2.replaceAll("[^a-zA-Z0-9 ]", "").toLowerCase().split("\\s+");
+
+		Map<String, Integer> wordCounts = new HashMap<>();
+		
+		for (String word : words) {
+		    //wordCounts.put(word, wordCounts.getOrDefault(word, 0) + 1);
+		    wordCounts.put(word, wordCounts.getOrDefault(word, 0)+1);
+		}
+
+		// Print the word counts
+				System.out.println("wordCounts"+wordCounts);
+				
+		
+	char[] c = "anupam".toCharArray();
+	 Map<Character,Integer> map = new HashMap<>();	
+	 
+	 for ( Character char2 : c )
+	 {
+		 map.put(char2, map.getOrDefault(char2, 0)+1);
+	 }
+	
+		
+		// Print the word counts
+		System.out.println("wordCounts"+map);
+		
+		
+		//print x no of prime no in given range og y and z
+		
+		int x = 5;
+		int y = 2;
+		int z = 100;
+		
+		
+		   int count = 0;
+
+		        for (int i = y; i <= z; i++) {
+		            if (isPrime(i)) {
+		                System.out.print(i + " ");
+		                count++;
+		                if (count == x) {
+		                    break; // Stop when x prime numbers are found
+		                }
+		            }
+		        }
+		    
+
+		    public static boolean isPrime(int num) 
+		    {
+		        if (num <= 1) {
+		            return false;
+		        }
+		        for (int i = 2; i * i <= num; i++) {
+		            if (num % i == 0) {
+		                return false;
+		            }
+		        }
+		        return true;
+		    }
+		
+
+
 		
 		/*Employee e1, e2
 
@@ -59,7 +126,7 @@ public class Test{
       
       System.out.print(a == b);        true
       System.out.print(" "); 
-      System.out.print(a == c.intern());    true    
+      System.out.print(a == c.intern());    true     return the same string if available.
       
   }
   }
@@ -83,35 +150,24 @@ public class Test{
 	  list.stream().filter( e ->  e.getsal> 5000).collect(collectos.toList());
 	  
 	  list.stream().map(Emp::getsal).collect(collectos.toList());
-	  
-	  
+	
 	  count();
 	  
 	  @enableconfiguration
 	  @componentscan
 	  @autoconfiguration
-	  
 	  @qualifier
-	  
-	  
-	  
-	  
+
 	  spring.profile.active = prod;
 	  
-	  @profile
-	  
-	  emp
-	  
-	  
-	  
-	  Print the Fname, Lname from 3rd to 6th tuple of Employee table when sorted according to the Salary.
+ Print the Fname, Lname from 3rd to 6th tuple of Employee table when sorted according to the Salary.
 	  
 	  
 	  
 	  select Fname, Lname
 	  from emp
 	  order by salary 
-	  where rownum in between 3 and 6; offset
+	  where rownum between 3 and 6;
 	  
 	  
 Employee table
@@ -135,119 +191,15 @@ KLM M
  
  ;
   
-  
-   string str = "I am happy Today. Today is my happy day"
-  
-  
-  
-   Bruteforce - 
-    
-	
-	
-	 
-	 
-	  Stream.of()
-	  
-	  Arrays.Strean(arr). 
-	 
-	 for ( int i = 0 ; l > arr.lenght ; i++)
-	    
-		count ++;
-	     for ( int j = i+1 ; j > arr.lenght ; j++)
-	   
-	       if (arr[i] == arr[j])
-		   {
-		      count++;
-		   }
-	    Sysout ( "word :" = arr[i] + "counts is " + count) 
-    
-	
-	
-	-- o n2
-  
-      int arr[] = str.split(" ");
-      map = new hashmap();
-	   
-	for ( int i = 0 ; l > arr.lenght ; i++)
-	   {
-	        if (map.containsKey(arr[i]))
-			{
-			     map.put( map.get() , )   
-			}
-			else
-			{
-			      
-			}
-	   
-	   
-	   }
-
-	  
-	  
-	  10 
-      	  
-	  
-	  
-	  
-	  
-	  
-     
-    
-    print x no of prime no in given range og y and z
-	
-	 
-	  int start = y;
-	  int end = z;
-	  int count = x;
-	  
-	 int arr2[] = printprime(y,z);
-	  
-	 
-	  for ( int i = 0 ; i < x ; i++ )
-		{
-		  Sysout (arr[i]);
-		}
-		  
-	 
-	 //edge case   - (0 , 0)  - 0 , 1 , 0 , 3,  ( 2 ,6)
-	 
-	 
-	public static int[] printPrime( int y ,  int z)
-	
-	{
-	
-	     int index = 0;
-	     int arr[] = new int[z-y+1];
-		 
-	   
-	    
-	    for ( int i = y ; i < z ; i++ )
-		{
-		       if (i%2 !=0)
-			   {
-			         arr[index] = i; 
-					 index++;
-			   }
-		}
-	
-	return arr;
-	}
-	
-	
-	
-
-   
-    	
-
-	  
-	 List list =  Arrays.asList( 1,2,3,4,5);
+ 
+  List list =  Arrays.asList( 1,2,3,4,5);
 	  
 	  
 	  list.stream().maptoint(e -> e+e).collect(collectors.toList());
 	  
 	  
 	  
-	emp
+emp
 id
 sal
 fname
@@ -289,12 +241,11 @@ List list = new linkedlist();
  update emp
  set sal to sal+5000 
  where empid in (select empid from emp where sal between 10,000 and 30,000);
+
  
- 
- 
- 
- @autowire
+ @Autowire
  Private Service service;
+ 
  
  @getmapping("/emp/{salary}")
  public Response entiry<Employee>  list getEmp( @pathvariable  salary int sal )
@@ -357,14 +308,9 @@ count = 3;
   
   printStar( int row, int col)
   {
-  
-  
-   
-   if ( row == 0)
+  if ( row == 0)
 	    return ;
-		
-
-  if(col < row )		
+ if(col < row )		
 		
 		
 	  Sysout(*);
@@ -391,10 +337,11 @@ customer table:  customer_id, name, email, phone
     select name
 	from customer where customer_id not in (select customer_id from order );
 	
-	select name 
-	from customer left outer join  order on
-	customer.customer_id = order_id.customer_id
-	where O.CustomerId is NULL ;
+	
+	SELECT c.*
+FROM Customers c
+LEFT JOIN Orders o ON c.CustomerID = o.CustomerID
+WHERE o.OrderID IS NULL;
 
  
  SELECT C.Name FROM Customers C LEFT JOIN Orders O ON C.Id = O.CustomerId WHERE O.CustomerId is NULL.
@@ -406,16 +353,18 @@ customer table:  customer_id, name, email, phone
       
 	  select customer_id
 	  from order
-	  where  todate(order_date, "mmm" )  = todate(System.date, mmm );
+	  where order_date  = DATE_TRUNC('month', CURRENT_DATE);
 	  
 
 
 write a sql query to get the list of  employees who have their birthdays today
 
  
- select name 
- from employee
- where to_date(dob , yyyy/mm/dd) = todate(SYSdate, yyyy/mm/dd);
+SELECT *
+FROM Employees
+WHERE MONTH(EmployeeDOB) = MONTH(CURRENT_DATE)
+AND DAY(EmployeeDOB) = DAY(CURRENT_DATE);
+
  
 
 
@@ -480,29 +429,55 @@ write a sql query to get the list of  employees who have their birthdays today
  
  }
  
-  Given a sorted array of distinct integers and a target value, return the index if the target is found. 
+
+ 
+ Given a sorted array of distinct integers and a target value, return the index if the target is found. 
   If not, return the index where it would be if it were inserted in order.
-You must write an algorithm with O(log n) runtime complexity.
+You mustï¿½write an algorithm withï¿½O(log n)ï¿½runtime complexity.
 
+public class SearchInsertIndex {
+    public static int searchInsert(int[] nums, int target) {
+        int left = 0, right = nums.length - 1;
 
+        while (left <= right) {
+            int mid = (left + right) / 2;
 
+            if (nums[mid] == target) {
+                return mid;
+            } else if (nums[mid] < target) {
+                left = mid + 1;
+            } else {
+                right = mid - 1;
+            }
+        }
 
- list.stream.flatmap(list -> list.stream).sorted()
-  
-  class shortbyAge implement corator
+        // Target not found, return insertion index
+        return left;
+    }
+
+    public static void main(String[] args) {
+        int[] nums = {1, 3, 5, 6};
+        int target = 5;
+        int index = searchInsert(nums, target);
+        System.out.println("Index: " + index); // Output: 2
+    }
+}
+
+ 
+  class shortbyAge implement comparator
 {
 
 
-   public comareto( o1 ,o2)
+   public comareTo( o1 ,o2)
    {
       return o2.age - o1.age;
    }
 
- class shortbyName implement comprator
+ class shortbyName implement comparator
 {
 
 
-   public comareto( o1 ,o2)
+   public comareTo( o1 ,o2)
    {
       return o2.name - o1.name;
    }
@@ -519,6 +494,8 @@ You must write an algorithm with O(log n) runtime complexity.
 
  
  int arr[] = {1,2,3,4,5,6,7,8,9,10};
+ 
+ 
  arr = {-1,0,1,-1,0,2,-1,-4}
  
  sum = 0
@@ -549,21 +526,8 @@ You must write an algorithm with O(log n) runtime complexity.
  }
  
  
-   class stundet implement comprable
-   
-   {  
-   
-    String name;
-   
-   @override
-   public stundet compare(Student s2)
-    {
-	   return  (s2.name);
-	}   
-   
-   }
- 
-  Q) Find the missing number from the list without sorting it?
+
+  Q) Find the missing number from the list without sorting it when length is giving.
   List<Integer> intList = new ArrayList<>(
             List.of(3,1,5,4,2,7,9,8,0));
 
@@ -582,32 +546,7 @@ Int ans = totSum - Sum;
 
 Return ans;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-			
+		
 class A 
 {
      
@@ -647,7 +586,10 @@ public class MainClass
         overloadedMethod(c); Two
     }
 }
-
+Method Resolution: When overloadedMethod(c) is called:
+The compiler looks for the most specific method that matches the argument's type.
+Since c is an object of class C, and C is a subclass of B, the method overloadedMethod(B b) is the most specific match and takes precedence over the more general overloadedMethod(Object obj).
+Execution: The overloadedMethod(B b) method executes, printing "TWO" to the console.
 
 
 
@@ -657,7 +599,7 @@ Int a =10;
 
 public static void main(String[] args)
 {
-System.out.println(“Hi”);
+System.out.println(Hi);
 }
 }
 
@@ -721,21 +663,12 @@ Using streams find the first odd number greater than 7, multiply by 3 and then r
 list.stream().filter( e -> e> 7).filter(e -> e%2==1).map(e  - > 3*e).
 
 
-
-@getrequestmapping(path = “/www.google.com/id?name=30” )
+@getrequestmapping(path = ï¿½/www.google.com/id?name=30ï¿½ )
 Public responseentity getmap( @Pathvaliable int id , @Requestparam String name)
 {
 
 Return responseEntity.service.getma(id , name);
 }
-
-
-
-
-
-
-
-
 
 
 
@@ -769,17 +702,8 @@ Class subject
 
   list.stream().sorted( ( e1, e2 ) -> e1.getName.compareTo(e2.getName)).
 
-
-
-
-  sdf
-  tries
-  
-  
-  
-
-
-   2,3,5,5,5,5,5,9,10
+ 
+ 2,3,5,5,5,5,5,9,10
    
   A        D
   9       10  a
@@ -823,42 +747,11 @@ Optional<Integer> first = list.stream().filter(ele -> ele < 2)
 System.out.println(first.get());
 
  1 1
- 
- 
- 
- 
- 
- 
-  list  = Arraus.asList(1,2,3,4,5,6,7,8);
+
+ list  = Arraus.asList(1,2,3,4,5,6,7,8);
   
   list.stream().filter( e -> e%2 ==0).Collect(collectors.toList());
    
-   
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
 
 @Bean
 
@@ -1016,25 +909,18 @@ List list = list.stream().filter( e -> "A".startswith(e)).map( e -> e+"-Done").s
     private final int a;
 	Private String  final a;
 	Map  a;
-	 
-	 
-	 
-	 
- } 
- 
- 
- 
- 
- selct max(sal)
- from emp where 
- sal <> ( select max(sal ) from emp  where sal <> ( select max(sal) from emp) );
 
  
- 
- 
- 
- 
- 
+ } 
+
+
+SELECT salary
+FROM (
+  SELECT employee_id, salary, RANK() OVER (ORDER BY salary DESC) AS rank
+  FROM employees
+) AS ranked_employees
+WHERE rank = 3;
+
  
  @Restcontroller
  class My_controller
@@ -1058,16 +944,9 @@ List list = list.stream().filter( e -> "A".startswith(e)).map( e -> e+"-Done").s
  String  = "Sssiiiimmmpleeest"
  
  op - L
- 
- 
- 
- 
- 
- 
- 
- 
-  
- Public void reverlist( Node head)
+
+
+Public void reverlist( Node head)
 
    
    Node Prev =null;
@@ -1641,9 +1520,9 @@ public boolean check( str1 , str2)
 
     {  
 
-        System.out.println(100 + 100 +“Simplilearn");   
+        System.out.println(100 + 100 +ï¿½Simplilearn");   
 
-        System.out.println(“E-Learning Company" + 100 + 100);  
+        System.out.println(ï¿½E-Learning Company" + 100 + 100);  
 
     }  
 

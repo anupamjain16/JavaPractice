@@ -1,10 +1,12 @@
 package DesignPattern;
 
+//Enhanced Double-Checked Locking (EDCL):
+
 public class SingltonDP {
 
-	private static SingltonDP Instance;
+	private volatile static SingltonDP Instance;
 
-	public static SingltonDP getInstance() {
+	public   static synchronized SingltonDP getInstance() {
 
 		if (Instance == null)
 

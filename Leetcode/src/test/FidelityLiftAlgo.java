@@ -32,13 +32,15 @@ public class FidelityLiftAlgo {
 
 		int floor[] = { 0, 1, 2, 3, 4, 5, 6, 7, 8 };
 
-		int PostionA = 0;
-		int PostionB = 2;
+		List list = Arrays.asList(floor);
+		
+		int PostionLiftA = 2;
+		int PostionLiftB = 5;
 		int PostionPerson = 1;
 
 		FidelityLiftAlgo test = new FidelityLiftAlgo();
 
-		//System.out.println(test.Getliftname(PostionA, PostionB, PostionPerson));
+		System.out.println(test.Getliftname(PostionA, PostionPerson));
 
 	}
 

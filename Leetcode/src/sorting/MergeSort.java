@@ -2,24 +2,19 @@ package sorting;
 
 import java.util.Arrays;
 
-
 ///Decending order
 public class MergeSort {
 
 	public static void main(String[] args) {
 
-		int arr[] = { 5,4,3,2,1,0,-1};
-		
-		int arr2[] = {-1,0};
-		
+		int arr[] = { 5, 4, 3, 2, 1, 0, -1 };
+
+		int arr2[] = { -1, 0 };
+
 		int arr4[] = merge(arr, arr2);
-		
-		
-		int arr3[] =mergeSort(arr);
-		
-		
-	
-		
+
+		int arr3[] = mergeSort(arr);
+
 		System.out.println(Arrays.toString(arr3));
 
 	}
@@ -43,7 +38,7 @@ public class MergeSort {
 
 		int i = 0;
 		int j = 0;
-		int k = 0;   // index of mix
+		int k = 0; // index of mix
 
 		int mix[] = new int[left.length + right.length];
 
@@ -59,10 +54,9 @@ public class MergeSort {
 
 			k++;
 		}
-		
-		
+
 /// may one array finished before
-		
+
 		while (i < left.length) {
 			mix[k] = left[i];
 			i++;

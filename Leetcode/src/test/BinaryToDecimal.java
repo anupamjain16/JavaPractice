@@ -8,9 +8,9 @@ public class BinaryToDecimal {
 
 	public static void main(String[] args) {
 
-		int a = 7;
+		int a = 6;
 
-		// op 1010
+		// op 111
 		/// reverse the string remaining.
 
 		

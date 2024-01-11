@@ -15,10 +15,12 @@ public class BinaryTree<T> {
 	}
 
 	private static void print(BinaryTree<Integer> node) {
-
+		
+		String s = node.data + " ";
+		
 		if (node == null)
 			return;
-		String s = node.data + " ";
+		
 
 		if (node.left != null) {
 			s = "L:" + node.left.data + ",";
@@ -26,7 +28,7 @@ public class BinaryTree<T> {
 		}
 
 		if (node.right != null) {
-			s = "R:" + node.left.data + ",";
+			s = "R:" + node.right.data + ",";
 			
 		}
 		System.out.println(s);
@@ -61,8 +63,8 @@ public class BinaryTree<T> {
 		node2.right = node4;
 		node2.left = node5;
 
-		 print(root);
-		//inorder(root);
+		 //print(root);
+		inorder(root);
 
 	}
 

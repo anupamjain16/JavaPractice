@@ -1,12 +1,16 @@
 package test;
 
-public class AirtelPay {
+import java.util.HashMap;
+import java.util.Map;
 
+public class AirtelPay {
+	
+	
 	/*
 	 
 
 //o(n)
-
+ 
 5 -> 50 -> 100 -> 150
 |    |      |      |
 200  null   151    1000
@@ -69,36 +73,38 @@ class Node
 
 
 
- find count of pair in an array whose sum is divisible by k
+find count of pair in an array whose sum is divisible by k
 Input : A[] = {1, 8, 3, 6, 7, 0, 9}, K = 4
 
 find count of pair in an array whose sum is divisible by k
 
 
 
-Input : A[] = {1, 8, 3, 6, 7, 0, 9}, K = 4 
-   
-   
-    int count = 0;
-   
-    Map<Integer,Integer> map  = new Hashmap<>();
-   
-       for( int i = 0 ;  i < a.legth ; i++)
-	   {
-	       int target = 4 - a[i];
+ int a[]  = {1, 8, 3, 6, 7, 0, 9};
+	    int K = 4 ;
+	   
+	   
+	    int count = 0;
+	   
+	    Map<Integer,Integer> map  = new HashMap<>() ;
+	   
+	       for( int i = 0 ;  i < a.legth ; i++)
+		   {
+		       int target = 4 - a[i];
+			   
+			   if( map.containsKey(target))
+			   {
+			        count++;
+			   }
+			   else
+			   {
+			       map.put(a[i] , i);
+			   }
 		   
-		   if( map.contains(target))
-		   {
-		        count++;
+		   
+		   
 		   }
-		   else
-		   {
-		       map.add(a[i] , i);
-		   }
-	   
-	   
-	   
-	   }
+
    Sysout(count);
 
 //

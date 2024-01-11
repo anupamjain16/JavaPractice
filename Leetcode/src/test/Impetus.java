@@ -9,11 +9,11 @@ public class Impetus {
 		
 		
 		// print word count
-		String str = "asdf wedf asdf  asdf asdf asdf er ewtrw";		
+		String str = "asdf wedf asdf asdf asdf asdf er ewtrw";		
 		
 		String[] arr4 = str.split(" ");
 		
-		System.out.println("count of words "+arr4.length);
+		System.out.println("count of words "+arr4.length+ Arrays.toString(arr4));
 		
 	
 		
@@ -41,8 +41,10 @@ public class Impetus {
 		
 		System.out.println(Arrays.toString(arr2));
 
+		//
+		
 		String[] arr = { "abv", "sdf", "abv" };
-		System.out.println(Arrays.toString(arr2));
+		System.out.println(Arrays.toString(arr));
 
 
 		for (int i = 0; i < arr.length; i++)
@@ -67,6 +69,11 @@ public class Impetus {
 		
 		char c2[] = { 'a' , 'b', 'c', 'd'};
 		char c3[] = { 'a' , 'b', 'c', 'd','e'};
+		
+		int shorterLength = Math.min(c2.length, c3.length);
+
+		
+		System.out.println("The extra element is: " + (c2.length > c3.length ? c2[c2.length - 1] : c3[c3.length - 1]));
 		
 		  
 		
